@@ -1,1 +1,244 @@
-under construction
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <title>janvi patel.</title>
+  <link rel="shortcut icon" href="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/15910082_10212177613103447_1917595048_n.png?oh=de0dd57b9209c2e3b11b8ba5ed702a90&oe=589A7FEF">
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
+  <link href="style-my-tooltips.css" rel="stylesheet" type="text/css" />
+  <script src="https://use.fontawesome.com/e7280bc3cf.js"></script>
+
+  <script>
+
+  $(document).ready(function() {
+    $('body').css('display', 'none');
+    $('body').fadeIn(1500);
+
+    $('a').click(function() {
+      event.preventDefault();
+      newLocation = this.href;
+      $('body').fadeOut(500, newpage);
+    });
+
+    function newpage() {
+      window.location = newLocation;
+    }
+  });
+  </script>
+
+  <!-- start of script tooltip -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script><script>
+(function($){
+$(document).ready(function(){
+$("[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:90,
+tip_fade_speed:100,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+</head>
+
+<style type="text/css">
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .content {
+    border: none !important;
+    padding: 10px !important;
+  }
+
+  .name {
+    font-size: 36px;
+    height: auto;
+  }
+  #janvi {
+    text-align: center !important;
+  }
+  #patel {
+    text-align: right !important;
+    display: none;
+  }
+
+  #patel_mobile {
+    display: inline-block !important;;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 3px;
+}
+
+#s-m-t-tooltip {
+max-width:300px;
+background-color: #373538;
+font-size:11px;
+color: #fff;
+letter-spacing:1px;
+text-transform:lowercase;
+padding:8px;
+margin:20px 0px 0px 20px;
+z-index:999999999;
+box-shadow: 5px 5px 0px 0px rgba(0,0,0, 0.3);
+}
+
+.push {
+  margin-top: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  color: #373538;
+  font-family: 'Open Sans';
+  cursor: crosshair;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  outline: none;
+  color: #373538;
+  cursor: help;
+}
+
+.content {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.landing {
+  border: 50px solid #fff;
+  background-color: #F2CC8F;
+}
+
+#about {
+  background-color: #3D405B;
+  color: #F4F1DE;
+  color: #F7C59F;
+}
+
+#projects {
+  border: 50px solid #F7C59F;
+}
+
+.nav {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Oswald';
+  letter-spacing: 1.5px;
+}
+
+.nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav a:hover {
+  color: #F4F1DE;
+}
+.name {
+  position: relative;
+  font-size: 60px;
+  font-family: 'Oswald';
+  font-weight: bold;
+  letter-spacing: 5px;
+  height: 175px;
+}
+#janvi {
+  text-align: right;
+}
+
+#patel_mobile {
+  display: none;
+}
+
+#arrow{
+  font-size: 25px;
+  text-align: center;
+}
+
+#keyboard{
+  text-align: center;
+  font-size: 175px;
+}
+
+</style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div class="content landing">
+      <div class="row push">
+        <div class="col-4">
+          <div class="name" id="janvi">janvi <div id="patel_mobile">patel</div></div>
+        </div>
+        <div class="col-4" id="keyboard">
+          <i class="fa fa-keyboard-o" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="col-4">
+          <div class="name" id="patel">patel.</div>
+        </div>
+      </div>
+
+      <div class="row push">
+        <div class="col-12">
+          <div class="nav">
+            <a href="/>" title="resume"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+            <a href="/>" title="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="/>" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="/>" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-12" id="arrow"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
+      </div>
+</div>
+
+    <div class="content" id="about">
+      about me;
+    </div>
+
+    <div class="content" id="projects">
+      about me;
+    </div>
+  </div>
+</body>
+</html>
