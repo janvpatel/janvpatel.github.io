@@ -1,6 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <head>
-  <title>janvi patel.</title>
+  <title>janvi patel</title>
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="https://maxcdn.icons8.com/Share/icon/color/Food//peach1600.png" type="image/x-icon">
+  <link rel="icon" href="https://maxcdn.icons8.com/Share/icon/color/Food//peach1600.png" type="image/x-icon"
   <link rel="shortcut icon" href="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/15910082_10212177613103447_1917595048_n.png?oh=de0dd57b9209c2e3b11b8ba5ed702a90&oe=589A7FEF">
   <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400" rel="stylesheet">
@@ -8,6 +13,7 @@
   <script src="https://use.fontawesome.com/e7280bc3cf.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet">
+  
   <!-- start of script tooltip -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
@@ -23,7 +29,7 @@
     });
   })(jQuery);
   </script>
-
+  
   <script>
   $(window).scroll(function () {
     var height = $(window).height() * 0.55;
@@ -31,7 +37,7 @@
       $('.nav').addClass('open');
       $('.nav').slideDown();
       $('.nav #name').addClass('name_appear');
-
+      
     } else if ( $(this).scrollTop() < height) {
       $('.nav').removeClass('open');
       $('.nav').slideUp();
@@ -39,317 +45,7 @@
     }
   });
   </script>
-</head>
-
-<style type="text/css">
-
-* {
-  box-sizing: border-box;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  /*border: 1px solid #eee;*/
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-
-  .square{
-    margin-bottom: 50px !important;
-  }
-}
-
-::-webkit-scrollbar {
-  background-color: transparent;
-  width: 3px;
-}
-
-::selection {
-  background-color: #494949;
-  color: white;
-}
-
-#s-m-t-tooltip {
-  max-width:300px;
-  background-color: #373538;
-  font-size:11px;
-  color: #fff;
-  letter-spacing:1px;
-  text-transform:lowercase;
-  padding:8px;
-  margin:20px 0px 0px 20px;
-  z-index:999999999;
-  box-shadow: 5px 5px 0px 0px rgba(0,0,0, 0.3);
-}
-
-.push {
-  margin-top: 100px;
-}
-
-.name_appear {
-  display: inline-block;
-}
-
-body {
-  margin: 0;
-  padding: 0px;
-  outline: none;
-  height: 100vh;
-  width: 100vw;
-  font-family: 'Work Sans';
-  cursor: crosshair;
-  overflow-x: hidden;
-}
-
-a, a:visited, a:active {
-  text-decoration: none;
-  outline: none;
-  color: #373538;
-  cursor: help;
-}
-
-.content {
-  width: 100vw;
-  margin-bottom: 75px;
-}
-
-.landing {
-  position: relative
-  border: none;
-  z-index: 99;
-  background-color: rgba(233, 159, 134, 1);
-  min-height: 100vh;
-  font-weight: 200;
-  color: white;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 100px solid #fff;
-
-  background-image: url('http://i.imgur.com/E8ar4Cm.jpg');
-  background-size: cover;
-
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#name {
-  position: relative;
-  z-index: 99;
-  font-size: 72px;
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 0.25px solid #494949;
-  margin-bottom: 40px;
-}
-
-
-#tagline {
-  font-size: 18px;
-  text-align: center;
-  font-family: 'Calibri Light';
-}
-
-.landing_content {
-  background-color: rgba(255,255,255, 0.6);
-  padding: 25px;
-  width: 350px;
-  height: 350px;
-  color: #494949;
-}
-
-.nav_hidden {
-  position: absolute;
-  z-index: 999999;
-  font-size: 15px;
-  font-family: 'Calibri Light';
-  text-transform: uppercase;
-  letter-spacing: 0.75px;
-  text-align: center;
-  padding: 25px;
-  background-color: white;
-  width: 100vw;
-  height: 100px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-} .nav_hidden a{
-  margin-left: 30px;
-  margin-right: 30px;
-  color: #494949;
-  padding-bottom: 5px;
-}
-
-.nav {
-  position: fixed;
-  z-index: 99999;
-  font-size: 15px;
-  font-family: 'Calibri Light';
-  text-transform: uppercase;
-  letter-spacing: 0.75px;
-  background-color: white;
-  width: 100vw;
-  text-align: right;
-  padding: 25px;
-  border-bottom: 1px solid #eee;
-} .nav a{
-  margin-left: 30px;
-  margin-right: 30px;
-  color: #494949;
-  padding-bottom: 5px;
-
-} .nav a:hover, .nav_hidden a:hover{
-  border-bottom: 0.25px solid #494949;
-}
-.nav #name{
-  position: relative;
-  display: none;
-  float: left;
-  font-size: 20px;
-  width: auto;
-  padding: 0;
-  margin: 0;
-  height: auto;
-  border: none;
-  letter-spacing: 3px;
-  background-color: white;
-}
-.square {
-  width: 100%;
-  height: 400px;
-  /*background-color: #ebebeb;*/
-  text-transform: uppercase;
-  font-weight: 200;
-  font-size: 18px;
-  color: white;
-  box-shadow: 1px 1px 3px  rgba(0,0,0, 0.3);
-
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#50599c+0,d088b6+97 */
-  background: rgb(80,89,156); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(80,89,156,1) 0%, rgba(208,136,182,1) 97%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(80,89,156,1) 0%,rgba(208,136,182,1) 97%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(80,89,156,1) 0%,rgba(208,136,182,1) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50599c', endColorstr='#d088b6',GradientType=0 ); /* IE6-9 */
-}
-
-#projects {
-  background-image: url('http://static.tumblr.com/2564216ae16e0650f450ef6701f20ea4/fs17im2/bt7nm8viq/tumblr_static_48ua7y672b6s0w00ocggw4wkc.png');
-  background-repeat: repeat;
-}
-
-#about {
-  font-family: 'Calibri Light';
-}
-#status {
-  padding: 15px;
-  border: 0.1px solid white;
-  background-color: #50599c;
-  color: white;
-  width: 100%;
-}
-
-.square#spence{
-  background-image:url('https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/22447000_10214876292568747_1726889858_n.png?oh=daef5ab958c210a1a3cb1427e21e0020&oe=59DE672A');
-  background-size: cover;
-} .square#tumblr{
-  background-image:url('https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/22385342_10214875942479995_35306722_n.png?oh=29544d8fc4dc110149a50cea752ca797&oe=59DE73E6');
-  background-size: cover;
-}
-
-
-.project_title {
-  font-size: 20px;
-  font-family: 'Playfair Display';
-  letter-spacing: 1px;
-  font-weight: 300;
-  width: 100%;
-  color: #494949;
-  border-bottom: 0.25px solid #000;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.project_desc {
-  font-size: 16px;
-  font-family: 'Calibri Light';
-  color: #494949;
-}
-
-.project_details {
-  width: 100%;
-  margin-bottom: 30px;
-
-} .project_details a {
-  border-bottom: 0.25px solid #494949;
-}
-
-.section_title {
-  position: relative;
-  display: block;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-family: 'Calibri Light';
-  letter-spacing: 2px;
-  margin-bottom: 50px;
-}
-
-#profile {
-  width: 100px;
-  height: 100px;
-  background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAu_AAAAJDcwYWJkNWQzLWY4MzUtNDUyYy04ZjU2LWY0ODlkMTUxZDZiOQ.jpg');
-  background-size: cover;
-  border-radius: 100px;
-  margin:auto;
-}
-
-td#pic {
-  width: 25%;
-  vertical-align: top;
-
-}td#me {
-  width: 75%;
-  padding: 10px;
-  padding-top: 0px;
-  vertical-align: top;
-}
-
-.no_padding {
-  padding: 30px;
-  padding-top: 0px;
-}
-
-#social {
-  text-align: center;
-  margin-top: 15px;
-} #social a{
-  padding: 5px;
-}
-
-</style>
+  
 </head>
 
 <body>
@@ -362,11 +58,11 @@ td#pic {
     </div>
     <div class="nav">
       <div class="nav" id="name">Janvi Patel</div>
-
-        <a href="https://www.linkedin.com/in/janvipatel/" target="_blank">LinkedIn</a>
-        <a href="https://www.github.com/janvpatel/" target="_blank">Github</a>
-        <a href="mailto:janvipatel@outlook.com" target="_blank">Contact</a>
-        <a href="/UIUX.pdf" target="_blank">Resume</a>
+      
+      <a href="https://www.linkedin.com/in/janvipatel/" target="_blank">LinkedIn</a>
+      <a href="https://www.github.com/janvpatel/" target="_blank">Github</a>
+      <a href="mailto:janvipatel@outlook.com" target="_blank">Contact</a>
+      <a href="/UIUX.pdf" target="_blank">Resume</a>
     </div>
     <div class="col-12 landing">
       <div class="row">
@@ -376,14 +72,14 @@ td#pic {
         </div>
       </div>
     </div>
-
+    
     <div class="content">
       <div class="row">
         <div class="col-2"></div>
         <div class="col-8" name="projects">
           <div class="row">
             <div class="section_title">PROJECTS</div>
-
+            
             <div class="col-6 no_padding">
               <div class="project_details">
                 <div class="project_title" id="spence">Spence Print Website Redesign</div>
@@ -399,7 +95,7 @@ td#pic {
               </div>
               <div class="square" id="spence"></div>
             </div>
-
+            
             <div class="col-6 no_padding">
               <div class="project_details">
                 <div class="project_title" id="tumblr">Tumblr Theme Development</div>
@@ -414,7 +110,7 @@ td#pic {
                 </div>
                 <div class="square" id="tumblr"></div>
               </div>
-
+              
             </div>
           </div>
           <div class="col-2"></div>
@@ -435,7 +131,7 @@ td#pic {
                     <a href="https://www.linkedin.com/janvipatel" title="linkedin" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                   </div>
                 </td>
-
+                
                 <td id="me">
                   <p>I am a 2<sup>nd</sup> year Computer Science student at the University of Waterloo
                     with a passion for UI/UX research & design, and front-end web
