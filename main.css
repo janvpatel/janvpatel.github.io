@@ -27,9 +27,51 @@
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+    padding: 10px;
+  }
+
+  .project_details {
+    padding: 0px !important;
   }
   .square{
     margin-bottom: 50px !important;
+  }
+  .landing {
+    border: 0 !important;
+      margin-top: 50px !important;
+  }
+  .nav_hidden {
+    height: 50px !important;
+    font-size: 10px !important;
+  }
+  .nav {
+    display: none;
+    height: 50px !important;
+  }
+  .links a {
+    font-size: 10px;
+  }
+
+  #social {
+    font-size:  9px;
+  }
+
+  td#me {
+    padding: 0px !important;
+    padding-left: 5px !important;
+  }
+
+  .nav #name{
+    display:none !important;
+  }
+
+  .links {
+    width: 100% !important;
+    font-size: 10px !important;
+    text-align: center !important;
+  } .links a {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
 ::-webkit-scrollbar {
@@ -140,6 +182,7 @@ a, a:visited, a:active {
   padding-bottom: 5px;
 }
 .nav {
+  display: none;
   position: fixed;
   z-index: 99999;
   font-size: 15px;
@@ -159,8 +202,12 @@ a, a:visited, a:active {
 } .nav a:hover, .nav_hidden a:hover{
   border-bottom: 0.25px solid #494949;
 }
+
+.links {
+  width: 100%;
+}
 .nav #name{
-  position: relative;
+  position: absolute;
   display: none;
   float: left;
   font-size: 20px;
@@ -171,6 +218,7 @@ a, a:visited, a:active {
   border: none;
   letter-spacing: 3px;
   background-color: white;
+  width: 16.66%;
 }
 .square {
   width: 100%;
