@@ -264,7 +264,7 @@ ul {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   height: 100%;
   overflow-y: auto;
@@ -275,6 +275,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-basis: 30%;
+  margin-right: 2em;
 }
 
 .item label {
@@ -291,8 +292,15 @@ ul {
   background-image: url('/public/images/logo_mujo.png'), linear-gradient(#8e3e72, #563f8d);
   background-position: center;
   background-repeat: no-repeat;
-
 }
+
+#tumblr {
+  background-image: url('/public/images/tumblr.png'), linear-gradient(#36465c, #36465c);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .grid>div {
   flex: 0 47%;
 }
@@ -337,6 +345,13 @@ ul {
   border-left: 5px solid #81B29A;
   padding-left: 1em;
   margin-bottom: 2em;
+  font-weight: 700;
+}
+
+
+.content-container a {
+  color: #81B29A;
+  font-weight: 700;
 }
 
 .content-container figure {
@@ -346,4 +361,18 @@ ul {
 
 figure img {
   margin-bottom: 1em !important;
+}
+
+.back {
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.back a {
+  color: #81B29A;
+  font-weight: 700;
+}
+.back i {
+  margin-right: 0.5em;
 }
