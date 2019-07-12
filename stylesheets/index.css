@@ -94,7 +94,7 @@ a:not(.active):hover {
   width: 33.33%;
   float: left;
   height: 100%;
-  background-image: url("/public/images/4_1.png");
+  background-image: url("/public/images/4.png");
   background-size: cover;
   background-position: right;
   opacity: 0.9;
@@ -327,21 +327,21 @@ li {
 }
 .content-container .text label {
   font-size: 1.5em;
-  color: #81b29a;
+  color: #e2a748;
 }
 .content-container .text img {
   margin: auto;
 }
 
 .content-container blockquote {
-  border-left: 5px solid #81b29a;
+  border-left: 5px solid #e2a748;
   padding-left: 1em;
   margin-bottom: 2em;
   font-weight: 700;
 }
 
 .content-container a {
-  color: #81b29a;
+  color: #e2a748;
   font-weight: 700;
 }
 
@@ -361,7 +361,7 @@ figure img {
 }
 
 .back a {
-  color: #81b29a;
+  color: #e2a748;
   font-weight: 700;
 }
 .back i {
