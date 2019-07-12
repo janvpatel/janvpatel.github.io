@@ -12,20 +12,22 @@ body {
   outline: none;
   height: 100vh;
   width: 100vw;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   cursor: crosshair;
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
   overflow-x: hidden;
   background-color: white;
 }
 
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   text-decoration: none;
   outline: none;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 a:not(.active):hover {
-  color: #4A4A4A !important;
+  color: #4a4a4a !important;
 }
 
 ::-webkit-scrollbar {
@@ -39,7 +41,7 @@ a:not(.active):hover {
 
 #s-m-t-tooltip {
   max-width: 300px;
-  background-color: #4A4A4A;
+  background-color: #4a4a4a;
   font-size: 11px;
   color: #fff;
   letter-spacing: 1.25px;
@@ -51,20 +53,19 @@ a:not(.active):hover {
   border-radius: 3px;
 }
 
-
 .header {
   height: 75px;
   width: 80%;
   margin: auto;
   border-bottom: 1px solid #eee;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: flex-start;
 }
 
 .logo {
   float: left;
-  background-image: url('/public/images/logo.png');
+  background-image: url("/public/images/logo.png");
   width: 25%;
   height: 100%;
   background-repeat: no-repeat;
@@ -93,7 +94,7 @@ a:not(.active):hover {
   width: 33.33%;
   float: left;
   height: 100%;
-  background-image: url('/public/images/4_1.png');
+  background-image: url("/public/images/4_1.png");
   background-size: cover;
   background-position: right;
   opacity: 0.9;
@@ -111,7 +112,7 @@ a:not(.active):hover {
   height: auto;
   font-size: 36px;
   line-height: 100%;
-  font-weight: 900;
+  font-weight: 700;
 }
 .content .desc {
   margin-top: 15px;
@@ -145,7 +146,8 @@ a:not(.active):hover {
 
 ul {
   list-style-type: none;
-} li {
+}
+li {
   padding-bottom: 5px;
 }
 
@@ -154,19 +156,19 @@ ul {
 }
 
 .red {
-  color: #E07A5F !important;
+  color: #e07a5f !important;
 }
 
 .green {
-  color: #81B29A !important;
+  color: #81b29a !important;
 }
 
 .blue {
-  color: #525CAF !important;
+  color: #525caf !important;
 }
 
 .yellow {
-  color: #E2A748 !important;
+  color: #e2a748 !important;
 }
 
 .hidden {
@@ -183,7 +185,7 @@ ul {
     width: 100% !important;
   }
 
-  .grid>div {
+  .grid > div {
     flex: 0 100% !important;
   }
 
@@ -216,7 +218,8 @@ ul {
     margin-bottom: 1em !important;
   }
 
-  .container, .content{
+  .container,
+  .content {
     padding: 1em !important;
   }
 
@@ -224,17 +227,18 @@ ul {
     width: 100%;
   }
 
-  .content-container td, th {
+  .content-container td,
+  th {
     width: auto !important;
     padding: none;
   }
 
-  .content .title  {
+  .content .title {
     font-size: 2em;
     margin-top: 1em;
   }
 
-  .content .desc  {
+  .content .desc {
     font-size: 1em !important;
   }
 
@@ -289,42 +293,32 @@ ul {
 }
 
 #mujo {
-  background-image: url('/public/images/logo_mujo.png'), linear-gradient(#8e3e72, #563f8d);
+  background-image: url("/public/images/logo_mujo.png"),
+    linear-gradient(#8e3e72, #563f8d);
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #tumblr {
-  background-image: url('/public/images/tumblr.png'), linear-gradient(#36465c, #36465c);
+  background-image: url("/public/images/tumblr.png"),
+    linear-gradient(#36465c, #36465c);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.grid>div {
+.grid > div {
   flex: 0 47%;
 }
 
-#social {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+#about_me a:link,
+#about_me a:visited,
+#about_me a:active {
+  color: #e07a5f !important;
 }
 
-#social a {
-  padding: 20px;
-}
-
-#social a:hover {
-  color: #000 !important;
-}
-
-#about_me a:link, #about_me a:visited, #about_me a:active{
-  color: #E07A5F !important;
-}
-
-
-.content-container .text .heading, .content-container .text label{
+.content-container .text .heading,
+.content-container .text label {
   font-weight: 700;
 }
 
@@ -333,24 +327,21 @@ ul {
 }
 .content-container .text label {
   font-size: 1.5em;
-  color: #81B29A;
-
+  color: #81b29a;
 }
 .content-container .text img {
   margin: auto;
-
 }
 
 .content-container blockquote {
-  border-left: 5px solid #81B29A;
+  border-left: 5px solid #81b29a;
   padding-left: 1em;
   margin-bottom: 2em;
   font-weight: 700;
 }
 
-
 .content-container a {
-  color: #81B29A;
+  color: #81b29a;
   font-weight: 700;
 }
 
@@ -370,9 +361,26 @@ figure img {
 }
 
 .back a {
-  color: #81B29A;
+  color: #81b29a;
   font-weight: 700;
 }
 .back i {
   margin-right: 0.5em;
+}
+
+#social {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+}
+
+#social a {
+  display: none;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+#social a:hover {
+  color: #525caf;
 }
